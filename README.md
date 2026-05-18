@@ -18,6 +18,13 @@
 - **CRT Aesthetic UI:** Retro-terminal style interface with CRT scanline effects and beveled design.
 - **Smart Refresh:** Automatic data updates every 30 seconds with intelligent pausing when the screen is off.
 
+### 📸 Screenshots
+<p align="center">
+  <img src="screenshots/screen1.jpg" width="30%" />
+  <img src="screenshots/screen2.jpg" width="30%" />
+  <img src="screenshots/screen3.jpg" width="30%" />
+</p>
+
 ### 🏗 Tech Stack
 - **UI:** Jetpack Compose
 - **Database:** Room (SQLite)
@@ -41,6 +48,13 @@ To build the project:
 - **Аналитика без Root:** Сбор статистики использования приложений и разряда батареи без вмешательства в систему.
 - **CRT интерфейс:** Ретро-стиль терминала с эффектами сканирования ЭЛТ и «выпуклым» дизайном (Beveled).
 - **Умное обновление:** Автоматическое обновление данных каждые 30 секунд с остановкой процесса при выключенном экране.
+
+### 📸 Скриншоты
+<p align="center">
+  <img src="screenshots/screen1.jpg" width="30%" />
+  <img src="screenshots/screen2.jpg" width="30%" />
+  <img src="screenshots/screen3.jpg" width="30%" />
+</p>
 
 ### 🏗 Технологический стек
 - **UI:** Jetpack Compose
