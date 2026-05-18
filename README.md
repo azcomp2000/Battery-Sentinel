@@ -4,33 +4,55 @@
 ![Kotlin](https://img.shields.io/badge/Language-Kotlin-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-**Battery Sentinel** — это легковесное Android-приложение для глубокого мониторинга состояния аккумулятора без использования Root-прав. 
+[**English**](#english) | [**Русский**](#русский)
 
-## 🛠 Ключевые особенности
-- **Real-time mAh Tracking:** Расчет текущей емкости и потребления в миллиампер-часах (mAh) на основе системных счетчиков.
-- **No-Root Analytics:** Сбор статистики использования приложений и разряда батареи без вмешательства в систему.
-- **CRT Aesthetic UI:** Интерфейс в стиле ретро-терминалов с эффектом электронно-лучевой трубки и скошенными гранями (Beveled Design).
-- **Smart Refresh:** Автоматическое обновление данных каждые 30 секунд с интеллектуальной остановкой при выключенном экране.
+---
 
-## 🏗 Технологический стек
+## English
+
+**Battery Sentinel** is a lightweight Android tool for deep battery monitoring without Root privileges. 
+
+### 🛠 Key Features
+- **Real-time mAh Tracking:** Accurate calculation of current capacity and consumption in milliampere-hours (mAh) using system counters.
+- **No-Root Analytics:** Collects app usage and battery drain statistics without system modification.
+- **CRT Aesthetic UI:** Retro-terminal style interface with CRT scanline effects and beveled design.
+- **Smart Refresh:** Automatic data updates every 30 seconds with intelligent pausing when the screen is off.
+
+### 🏗 Tech Stack
 - **UI:** Jetpack Compose
 - **Database:** Room (SQLite)
 - **Concurrency:** Kotlin Coroutines & Flow
 - **Architecture:** MVVM (Model-View-ViewModel)
 
-## 🚀 Сборка
-Для сборки проекта выполните следующие шаги:
+### 🚀 Build
+To build the project:
+1. Open the project in **Android Studio (Ladybug or newer)**.
+2. Wait for Gradle sync to complete.
+3. Build via: `Build > Build Bundle(s) / APK(s) > Build APK(s)`.
+
+---
+
+## Русский
+
+**Battery Sentinel** — это легковесный инструмент для глубокого мониторинга состояния аккумулятора Android без использования Root-прав. 
+
+### 🛠 Ключевые особенности
+- **Отслеживание mAh в реальном времени:** Точный расчет текущей емкости и потребления в миллиампер-часах (mAh) на основе системных счетчиков.
+- **Аналитика без Root:** Сбор статистики использования приложений и разряда батареи без вмешательства в систему.
+- **CRT интерфейс:** Ретро-стиль терминала с эффектами сканирования ЭЛТ и «выпуклым» дизайном (Beveled).
+- **Умное обновление:** Автоматическое обновление данных каждые 30 секунд с остановкой процесса при выключенном экране.
+
+### 🏗 Технологический стек
+- **UI:** Jetpack Compose
+- **БД:** Room (SQLite)
+- **Многопоточность:** Kotlin Coroutines & Flow
+- **Архитектура:** MVVM (Model-View-ViewModel)
+
+### 🚀 Сборка
+Для сборки проекта:
 1. Откройте проект в **Android Studio (Ladybug или новее)**.
 2. Дождитесь завершения синхронизации Gradle.
-3. Запустите сборку через меню: `Build > Build Bundle(s) / APK(s) > Build APK(s)`.
-
-Или через терминал (если у вас установлен Gradle):
-```bash
-gradle assembleDebug
-```
-
-## 📜 Лицензия
-MIT License. Свободно для использования и модификации.
+3. Соберите через: `Build > Build Bundle(s) / APK(s) > Build APK(s)`.
 
 ---
 *Created by DarkMByte as part of the Sovereign Engineering Initiative.*
