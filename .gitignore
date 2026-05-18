@@ -1,0 +1,28 @@
+# Android
+build/
+.gradle/
+.kotlin/
+.tmp/
+local.properties
+*.jks
+*.keystore
+*.apk
+*.bundle
+
+# Scripts (Local paths protection)
+*.bat
+gradlew
+gradlew.bat
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*_log.txt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
